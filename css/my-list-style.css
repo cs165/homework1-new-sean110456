@@ -1,3 +1,54 @@
-/**
- TODO(you): Add CSS for the list that you create yourself!
-*/
+body{
+    margin:0px;
+    text-align: center;
+}
+nav{
+    background-color: lightskyblue;
+    height:60px;
+    display: flex;
+    font-weight: bold;
+    justify-content:flex-end;
+    align-items:center;
+}
+nav div{
+    position:relative;
+    right: 10px;
+    text-align: center;
+    height:25px;
+    width:150px;
+    font-family:Roboto Slab, serif;
+    color: grey;
+    margin-left:20px;
+    border-radius: 20px;
+    
+}
+.navi{
+    background-color: royalblue;
+}
+section{
+    float: left;
+    width:70%;
+    text-align: left;
+}
+section div{
+    float: left;
+}
+img{
+    float: left;
+    height: 300px;
+    width: 250px;    
+    margin: 40px;
+}
+.block{
+    margin:40px;   
+}
+h1{
+    display: block;
+    padding-top:50px;
+    margin:0;
+    height: 100px;
+    background-color: powderblue
+}
+h2{
+    color: cornflowerblue;
+}
